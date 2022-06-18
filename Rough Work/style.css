@@ -16,6 +16,10 @@
     padding: 12px;
 }
 /* section of places */
+.content {
+    padding:20px 0px 20px 0px;
+}
+
 .tile {
     /* TODO: MODULE_CARDS */
     /* 1. Fill in the required properties. */
