@@ -94,3 +94,26 @@ footer {
 .image-responsive:hover {
   -webkit-filter: brightness(50%);
 }
+
+/* resort section style */
+.resort-card-details {
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 16px;
+}
+.sold-out{
+  height: fit-content;
+  position: fixed;
+  right: 10px;
+}
+.main-image{
+  height:318px;
+}
+.resort-card-image {
+  width: 100%;
+  cursor: pointer;
+  -webkit-transition: 0.2s all;
+}
+.resort-card-image:hover{
+  -webkit-filter: brightness(50%);
+}
