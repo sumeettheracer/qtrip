@@ -117,3 +117,28 @@ footer {
 .resort-card-image:hover{
   -webkit-filter: brightness(50%);
 }
+.only-in-small-screens
+{
+  display:none;
+}
+@media(max-width:1200px){
+  .mediaqueryimage{
+    display: none;
+    position:absolute;
+  }
+  .mediaquerydivincrease{
+    width:100%;
+  }
+}
+@media(max-width:990px){
+  .sold-out{
+    display: none;
+  }
+  .resort-card-details{
+
+    width: 100%;
+  }
+  .only-in-small-screens{
+    display:block;
+  }
+}
